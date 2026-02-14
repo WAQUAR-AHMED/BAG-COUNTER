@@ -59,3 +59,6 @@ The model was trained using a custom annotated dataset for bag detection.
 <img width="1044" height="632" alt="image" src="https://github.com/user-attachments/assets/802c7f7e-9e26-49fb-b1fa-4956d22c439f" />
 
 <img width="1046" height="635" alt="image" src="https://github.com/user-attachments/assets/3e786fc7-b4c9-4924-9523-840378fee2d8" />
+
+## Short reoprt
+- https://drive.google.com/file/d/1NDgDTc1r9oGLeIYiKVCKfBtALMK5vyHq/view?usp=sharing
