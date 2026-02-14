@@ -4,12 +4,12 @@ from ultralytics import YOLO
 # -----------------------------
 # Load model
 # -----------------------------
-model = YOLO(r"Processed_data/runs/detect/train/weights/best.pt")
+model = YOLO(r"best.pt")
 
 # -----------------------------
 # Open video
 # -----------------------------
-cap = cv2.VideoCapture(r"Dataset\Problem Statement Scenario1.mp4")
+cap = cv2.VideoCapture(r"Problem Statement Scenario1.mp4")
 
 # -----------------------------
 # Counter setup
@@ -96,3 +96,4 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
