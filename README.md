@@ -25,8 +25,36 @@ This project detects and counts bags crossing a defined line using YOLOv8 and Op
 2. Run:
    python BagCounter.py
 
+## YOLOv8 Model Training Results
 
+The model was trained using a custom annotated dataset for bag detection.
 
-   <img width="1044" height="632" alt="image" src="https://github.com/user-attachments/assets/802c7f7e-9e26-49fb-b1fa-4956d22c439f" />
+### Training Metrics
+
+| Metric        | Value |
+|--------------|--------|
+| mAP@0.5      | 0.98   |
+| mAP@0.5:0.95 | 0.77   |
+| Precision    | 0.99   |
+| Recall       | 0.99   |
+
+### Training Details
+
+- Epochs: 25
+- Model: YOLOv8
+- Framework: Ultralytics
+- Dataset: Custom annotated bag dataset
+- Image size: 640
+
+### Observations
+
+- The model achieved high detection accuracy.
+- Precision and Recall values indicate stable detection.
+- The model performs well under real-world loading conditions.
+---
+
+## Sample Detection Output
+
+<img width="1044" height="632" alt="image" src="https://github.com/user-attachments/assets/802c7f7e-9e26-49fb-b1fa-4956d22c439f" />
 
 <img width="1046" height="635" alt="image" src="https://github.com/user-attachments/assets/3e786fc7-b4c9-4924-9523-840378fee2d8" />
