@@ -9,7 +9,7 @@ This project detects and counts bags crossing a defined line using YOLOv8 and Op
 - Detects bags in video
 - Draws bounding boxes
 - Shows tracking ID on each bag
-- Counts bags crossing line y = -2x + 300
+- Counts bags crossing Vertical line(Depends on Enviroment) 
 - Prevents duplicate counting
 
 ## Technologies Used
